@@ -52,6 +52,7 @@ export const Header = () => {
                   {routes.map((route, i) => (
                     <Button
                       asChild
+                      key={route.label}
                       variant={"ghost"}>
                       <a
                         key={i}
@@ -75,7 +76,8 @@ export const Header = () => {
             {routes.map((route, i) => (
               <Button
                 asChild
-                variant={"ghost"}>
+                variant={"ghost"}
+                key={route.label}>
                 <a
                   className="text-sm font-medium transition-colors "
                   key={i}

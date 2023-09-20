@@ -25,7 +25,7 @@ export const Categories = () => {
 
       <div className="space-y-10 ">
         {categories.map((category) => (
-          <div>
+          <div key={category.Title}>
             <h1 className="mb-2 text-2xl font-semibold sm:text-4xl lg:text-5xl">
               {category.Title}
             </h1>
@@ -34,7 +34,10 @@ export const Categories = () => {
 
             <div className="md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-4">
               {category.products.map((product) => (
-                <CategoriesProductCard data={product} />
+                <CategoriesProductCard
+                  key={product.id}
+                  data={product}
+                />
               ))}
             </div>
 
