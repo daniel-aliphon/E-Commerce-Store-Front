@@ -1,10 +1,20 @@
-import { Button } from "./components/ui/button";
+import Container from "./components/ui/container";
+import { Hero } from "./sections/Hero";
+import { PopularProducts } from "./sections/PopularProducts";
+import { Categories } from "./sections/Categories";
+import { Footer } from "./sections/Footer";
 
 function App() {
   return (
-    <div>
-      <Button>Click Me</Button>
-    </div>
+    <Container>
+      <Hero />
+      <hr />
+      <PopularProducts />
+      <hr />
+      <Categories />
+
+      <Footer />
+    </Container>
   );
 }
 
