@@ -30,7 +30,7 @@ export const Header = () => {
       label: "Categories",
     },
     {
-      href: "#On-Sale",
+      href: "#Deals",
       label: "On Sale",
     },
   ];

@@ -11,7 +11,7 @@ export const Hero = () => {
         className=" rounded-lg relative aspect-square md:aspect-[2.4/1] overflow-hidden bg-cover mt-32">
         <div className="flex flex-col items-center justify-center w-full h-full text-center gap-y-8">
           <div className="max-w-xs p-4 text-3xl font-bold rounded-lg text-deep-blue sm:text-5xl lg:text-6xl sm:max-w-xl dark:text-white bg-secondary/60">
-            Exclusive Deals
+            Welcome
             <Button
               size="lg"
               className="w-full py-6 text-xl ">
