@@ -1,4 +1,4 @@
-import { popularProducts } from "@/Products";
+import { dealsProducts } from "@/Products";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { SplideCard } from "../SplideCard";
@@ -16,6 +16,14 @@ export const Carousel = () => {
           drag: "free",
           focus: "center",
           perPage: 3,
+          breakpoints: {
+            990: {
+              perPage: 2,
+            },
+            440: {
+              perPage: 1,
+            },
+          },
           autoScroll: {
             pauseOnHover: false,
             pauseOnFocus: false,
@@ -24,7 +32,7 @@ export const Carousel = () => {
           },
         }}
         extensions={{ AutoScroll }}>
-        {popularProducts.map((product) => (
+        {dealsProducts.map((product) => (
           <SplideSlide>
             <SplideCard data={product} />
           </SplideSlide>

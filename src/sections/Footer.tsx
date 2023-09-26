@@ -57,9 +57,9 @@ export const Footer = () => {
     <div className="px-4 mt-48 bg-cover sm:px-6 lg:px-8">
       <div
         id="Contact"
-        className="flex justify-between h-48 gap-5 p-5 rounded-t-lg max-sm:h-auto max-sm:gap-9 max-sm:flex-col bg-secondary ">
+        className="flex justify-between h-48 gap-5 p-5 border rounded-t-lg max-sm:h-auto max-sm:gap-9 max-sm:flex-col ">
         {/*  */}
-        <div className="flex flex-col justify-between max-sm:items-center sm:pr-2 min-w-max">
+        <div className="flex flex-col justify-between gap-1 p-3 rounded-lg bg-secondary max-sm:items-center sm:pr-2 min-w-max">
           <h1 className="text-2xl font-bold">#Store Name</h1>
 
           <p>
@@ -87,7 +87,7 @@ export const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-around text-center max-sm:hidden">
+        <div className="flex flex-col items-center justify-around text-center rounded-lg bg-secondary max-sm:hidden">
           <h1 className="text-2xl font-semibold ">About Us</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
@@ -96,7 +96,7 @@ export const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-around pl-2 text-center min-w-48">
+        <div className="flex flex-col items-end pr-4 rounded-lg justify-evenly bg-secondary text-end min-w-48">
           <ContactButton />
 
           <p>

@@ -11,10 +11,10 @@ export const CategoriesProductCard: React.FC<CategoriesProductCard> = ({
   return (
     <a
       href="/"
-      className="transition duration-300 rounded-lg outline-0 ring-primary">
+      className="transition duration-300 rounded-lg hover:ring-2 outline-0 ring-primary">
       <Card className="border-2 rounded-lg ">
         <CardContent className="pt-4">
-          <div className="relative rounded-lg aspect-square bg-foreground/5 dark:bg-background">
+          <div className="relative rounded-lg aspect-square bg-foreground/5 ">
             <img
               src={data.images?.[0]}
               alt="product image"

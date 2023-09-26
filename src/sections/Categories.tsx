@@ -2,6 +2,7 @@ import { categories } from "@/Products";
 import { CategoriesProductCard } from "@/components/CategoriesProductCard";
 import { Button } from "@/components/ui/button";
 import catbg from "../assets/categoriesbg.jpg";
+import { ArrowRight } from "lucide-react";
 
 export const Categories = () => {
   return (
@@ -32,7 +33,7 @@ export const Categories = () => {
 
             <p>Description</p>
 
-            <div className="md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-4">
+            <div className="items-center md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-4">
               {category.products.map((product) => (
                 <CategoriesProductCard
                   key={product.id}
@@ -41,7 +42,9 @@ export const Categories = () => {
               ))}
             </div>
 
-            <Button className="my-4">View in Store</Button>
+            <Button className="my-4">
+              View in Store <ArrowRight />
+            </Button>
 
             <hr />
           </div>
