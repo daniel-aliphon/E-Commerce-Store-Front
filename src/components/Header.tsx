@@ -14,10 +14,6 @@ export const Header = () => {
 
   const routes = [
     {
-      href: "#Hero",
-      label: "Home",
-    },
-    {
       href: "#PopularProducts",
       label: "Popular",
     },
@@ -28,6 +24,10 @@ export const Header = () => {
     {
       href: "#Categories",
       label: "Categories",
+    },
+    {
+      href: "#Games",
+      label: "Games",
     },
     {
       href: "#Deals",

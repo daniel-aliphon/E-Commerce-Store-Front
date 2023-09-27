@@ -25,6 +25,18 @@ import {
   consoleImage,
   consoleImage2,
   consoleImage3,
+  gameImage1,
+  gameImage2,
+  gameImage3,
+  gameImage4,
+  gameImage5,
+  gameImage6,
+  gameImage7,
+  gameImage8,
+  gameImage9,
+  gameImage10,
+  gameImage11,
+  gameImage12,
 } from "./assets/products";
 
 // products
@@ -335,3 +347,94 @@ export const dealsProducts = [
     images: [popularProductImage8],
   },
 ];
+
+export const gamesProducts = {
+  left: [
+    {
+      id: "778",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage1],
+    },
+    {
+      id: "199",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage2],
+    },
+    {
+      id: "981",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage3],
+    },
+    {
+      id: "820",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage4],
+    },
+    {
+      id: "578",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage5],
+    },
+    {
+      id: "333",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage6],
+    },
+  ],
+  right: [
+    {
+      id: "778",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage7],
+    },
+    {
+      id: "199",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage8],
+    },
+    {
+      id: "981",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage9],
+    },
+    {
+      id: "820",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage10],
+    },
+    {
+      id: "578",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage11],
+    },
+    {
+      id: "333",
+      category: "Games",
+      name: "#Games Product",
+      price: "R999",
+      images: [gameImage12],
+    },
+  ],
+};
