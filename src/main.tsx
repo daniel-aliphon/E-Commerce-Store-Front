@@ -6,6 +6,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { ThemeProvider } from "./components/ThemeProvider.tsx";
 import { Header } from "./components/Header.tsx";
+import { Footer } from "./sections/Footer.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       enableSystem>
       <Header />
       <App />
+      <Footer />
     </ThemeProvider>
   </React.StrictMode>
 );

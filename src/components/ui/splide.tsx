@@ -6,7 +6,7 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 
 export const Carousel = () => {
   return (
-    <div>
+    <div className="border-x-2">
       <Splide
         options={{
           rewind: true,

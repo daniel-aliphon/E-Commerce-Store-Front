@@ -31,7 +31,7 @@ export const Categories = () => {
               {category.Title}
             </h1>
 
-            <p>Description</p>
+            <p className="my-4">#Description</p>
 
             <div className="items-center md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-4">
               {category.products.map((product) => (
