@@ -29,7 +29,7 @@ export const SplideCard: React.FC<SplideCard> = ({ data }) => {
                 <span className="line-through decoration-red-500 w-11 decoration-[3px]">
                   {data.price}
                 </span>
-                <span className="text-red-500 ">{data.discountedPrice}</span>
+                <span className="text-red-500 ">R999</span>
               </p>
             </div>
           </div>

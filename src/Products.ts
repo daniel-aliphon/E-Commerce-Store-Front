@@ -287,7 +287,6 @@ export const dealsProducts = [
     category: "Accessories",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage1],
   },
   {
@@ -295,7 +294,6 @@ export const dealsProducts = [
     category: "Accessories",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "999",
     images: [popularProductImage2],
   },
   {
@@ -303,7 +301,6 @@ export const dealsProducts = [
     category: "Accessories",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage3],
   },
   {
@@ -311,7 +308,6 @@ export const dealsProducts = [
     category: "Accessories",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage4],
   },
   {
@@ -319,7 +315,6 @@ export const dealsProducts = [
     category: "Complete PCs",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage5],
   },
   {
@@ -327,7 +322,6 @@ export const dealsProducts = [
     category: "PC Parts",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage6],
   },
   {
@@ -335,7 +329,6 @@ export const dealsProducts = [
     category: "Consoles",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage7],
   },
   {
@@ -343,7 +336,6 @@ export const dealsProducts = [
     category: "Laptops",
     name: "#Deals Product",
     price: "R999",
-    discountedPrice: "R999",
     images: [popularProductImage8],
   },
 ];
