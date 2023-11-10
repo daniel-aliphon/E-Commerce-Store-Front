@@ -10,20 +10,20 @@ export const CategoriesProductCard: React.FC<CategoriesProductCard> = ({
 }) => {
   return (
     <a
-      href="/"
-      className="transition duration-300 rounded-lg hover:ring-2 outline-0 ring-primary">
-      <Card className="border-2 rounded-lg ">
+      href=""
+      className="rounded-lg outline-0 ring-primary transition duration-300 hover:ring-2">
+      <Card className="rounded-lg border-2">
         <CardContent className="pt-4">
-          <div className="relative rounded-lg aspect-square bg-foreground/5 ">
+          <div className="relative aspect-square rounded-lg bg-foreground/5">
             <img
               src={data.images?.[0]}
               alt="product image"
-              className="object-cover transition-all duration-300 rounded-lg aspect-square hover:scale-105"
+              className="aspect-square rounded-lg object-cover transition-all duration-300 hover:scale-105"
             />
           </div>
-          <div className="flex flex-col items-start mt-4">
+          <div className="mt-4 flex flex-col items-start">
             <div>
-              <p className="text-lg font-semibold ">{data.name}</p>
+              <p className="text-lg font-semibold">{data.name}</p>
             </div>
           </div>
         </CardContent>
