@@ -1,10 +1,10 @@
 "use client";
 
+import { Menu, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { ProfileButton } from "./ProfileButton";
 import { Button } from "./ui/button";
 import Container from "./ui/container";
-import { ProfileButton } from "./ProfileButton";
-import { Sun, Moon, Menu } from "lucide-react";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CartButton } from "./CartButton";
@@ -36,7 +36,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="fixed z-10 w-full px-4 py-3 dark:bg-[hsl(222.2,84%,4.9%)] bg-white border-b sm:flex sm:justify-between">
+    <header className="fixed z-10 w-full px-4 py-3 bg-white border-b dark:bg-background sm:flex sm:justify-between">
       <Container>
         <div className="relative flex items-center justify-between w-full h-16 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center">
@@ -47,17 +47,20 @@ export const Header = () => {
 
               <SheetContent
                 side={"left"}
-                className=" w-[300px] sm:w-[400px] pt-11">
+                className=" w-[300px] sm:w-[400px] pt-11"
+              >
                 <nav className="flex flex-col gap-4">
                   {routes.map((route, i) => (
                     <Button
                       asChild
                       key={route.label}
-                      variant={"ghost"}>
+                      variant={"ghost"}
+                    >
                       <a
                         key={i}
                         className="block px-2 py-1 text-lg"
-                        href={route.href}>
+                        href={route.href}
+                      >
                         {route.label}
                       </a>
                     </Button>
@@ -68,7 +71,8 @@ export const Header = () => {
 
             <a
               href=""
-              className="ml-4 lg:ml-0">
+              className="ml-4 lg:ml-0"
+            >
               <h1 className="text-xl font-bold">#Store Name</h1>
             </a>
           </div>
@@ -77,11 +81,13 @@ export const Header = () => {
               <Button
                 asChild
                 variant={"ghost"}
-                key={route.label}>
+                key={route.label}
+              >
                 <a
                   className="text-sm font-medium transition-colors "
                   key={i}
-                  href={route.href}>
+                  href={route.href}
+                >
                   {route.label}
                 </a>
               </Button>
@@ -94,7 +100,8 @@ export const Header = () => {
               size={"icon"}
               aria-label="Toggle Theme"
               className="mr-6 rounded-full"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            >
               <Sun className="w-6 h-6 transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute w-6 h-6 transition-all scale-0 rotate-90 dark:-rotate-0 dark:scale-100" />
 
