@@ -5,16 +5,16 @@ export const Hero = () => {
   return (
     <div
       id="Hero"
-      className="p-4 overflow-hidden rounded-lg sm:p-6 lg:p-8">
+      className="overflow-hidden rounded-lg p-4 sm:p-6 lg:p-8">
       <div
         style={{ backgroundImage: `url(${hero})` }}
-        className=" rounded-lg relative aspect-square md:aspect-[2.4/1] overflow-hidden bg-cover mt-32">
-        <div className="flex flex-col items-center justify-center w-full h-full text-center gap-y-8">
-          <div className="max-w-xs p-4 text-3xl font-bold rounded-lg text-deep-blue sm:text-5xl lg:text-6xl sm:max-w-xl dark:text-white bg-secondary/60">
+        className="relative mt-32 aspect-square overflow-hidden rounded-lg bg-cover md:aspect-[2.4/1]">
+        <div className="flex h-full w-full flex-col items-center justify-center gap-y-8 text-center">
+          <div className="max-w-xs rounded-lg bg-secondary/60 p-4 text-3xl font-bold text-deep-blue dark:text-white sm:max-w-xl sm:text-5xl lg:text-6xl">
             #Store Name
             <Button
               size="lg"
-              className="w-full py-6 text-xl ">
+              className="w-full py-6 text-xl">
               <ShoppingBag className="mr-2" />
               Lets Go Shopping
             </Button>

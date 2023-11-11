@@ -35,7 +35,7 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="mt-48 w-full bg-secondary bg-cover px-4 sm:px-6 lg:px-8">
+    <div className="mt-96 w-full bg-secondary bg-cover px-4 sm:px-6 lg:px-8">
       <div
         id="Contact"
         className="mx-auto flex h-48 max-w-7xl justify-between gap-5 border-x p-5 max-sm:h-auto max-sm:flex-col max-sm:gap-9">

@@ -14,7 +14,7 @@ export const GamesCarouselRight = () => {
           arrows: false,
           direction: "ttb",
           pagination: false,
-          height: "900px",
+          height: "1100px",
           type: "loop",
           drag: "free",
           focus: "center",
